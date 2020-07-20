@@ -1,6 +1,6 @@
 --Buscar os nomes de todos os alunos que frequentam alguma turma do professor 'JOAO PEDRO'.
 select id from PROFESSOR
-where nome = JOAO PEDRO
+where nome = "JOAO PEDRO"
 
 select id from TURMA
 where PROFESSOR_id = --ID do joao pedro que peguei no passo anterior
@@ -20,7 +20,7 @@ where id = -- aluno_id que peguei no passo anterior
 
 -- Buscar os dias da semana que tenham aulas da disciplina 'MATEMATICA'.
 select id from DISCIPLINA
-where nome = MATEMATICA
+where nome = "MATEMATICA"
 
 FOR
 select dia_da_semana from TURMA
